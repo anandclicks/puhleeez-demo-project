@@ -4,7 +4,6 @@ const { prodcutaAllData } = require("../data")
 
 // Controller for sending data of all product 
 const handleAllProdcutReq = async(req,res)=> {
-
   try {
   const allProdcut = await ProductModel.find()
   if(!allProdcut){
@@ -34,7 +33,6 @@ const handleAllProdcutReq = async(req,res)=> {
 const handleSpecificProductReq = async(req,res)=> {
   // getting product id form req's body 
   const {id} = req.body
-
   try {
   //  If prodcut id is invalid 
     if(!mongoose.Types.ObjectId.isValid(id)) {

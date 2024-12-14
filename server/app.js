@@ -3,14 +3,16 @@ const path = require("path")
 const dotenv = require("dotenv").config()
 const app = express()
 const cors = require("cors")
+const bodyParser = require('body-parser')
 
 
 // Middleware for serving images 
 const connectDB = require("./models/dbconnection")
 app.use(express.json())
+app.use(bodyParser.urlencoded({extended : true}))
 app.use('/images',express.static(path.join(__dirname,'images')))
 app.use(cors({
-  origin : process.env.BACKEND_DOMAIN,
+  origin : process.env.FRONTEND_DOMAIN,
   credentials : true
 }))
 

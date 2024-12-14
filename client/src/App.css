@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btnsBgColor {
+  background-color: black;
+  color: #fff;
+}
+
+
+.sliderWrapper {
+  transition: 0.3s ease-in-out;
+}
+.faqEachPoints{
+  height: 80px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.expenedeFaq {
+  height: 150px !important;
+  transition: 0.3s ease-in-out;
+}

@@ -2,7 +2,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/one.webp",
     "title": "Floral Maxi Dress",
-    "description": "Elegant long dress with floral patterns, perfect for casual outings or summer parties. Lightweight and breathable.",
+    "dipscription": "Elegant long dress with floral patterns, perfect for casual outings or summer parties. Lightweight and breathable.",
     "fabric": "Chiffon",
     "type": "Dress",
     "color": "Peach",
@@ -13,7 +13,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/two.webp",
     "title": "Crop Top",
-    "description": "Trendy cotton crop top with a snug fit, ideal for casual wear or pairing with high-waisted pants.",
+    "dipscription": "Trendy cotton crop top with a snug fit, ideal for casual wear or pairing with high-waisted pants.",
     "size": ["XS", "S", "M", "L"],
     "fabric": "Cotton",
     "type": "Top",
@@ -25,7 +25,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/three.webp",
     "title": "Silk Blouse",
-    "description": "Sophisticated silk blouse with a luxurious feel, designed for formal occasions or chic office looks.",
+    "dipscription": "Sophisticated silk blouse with a luxurious feel, designed for formal occasions or chic office looks.",
     "size": ["S", "M", "L", "XL"],
     "fabric": "Silk",
     "type": "Blouse",
@@ -37,7 +37,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/four.webp",
     "title": "Denim Skirt",
-    "description": "Stylish denim skirt with a high waist and button-front detail, offering versatility for various looks.",
+    "dipscription": "Stylish denim skirt with a high waist and button-front detail, offering versatility for various looks.",
     "size": ["S", "M", "L"],
     "fabric": "Denim",
     "type": "Skirt",
@@ -49,7 +49,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/five.webp",
     "title": "Woolen Cardigan",
-    "description": "Cozy cardigan made from soft wool, perfect for layering in chilly weather. Open-front design with pockets.",
+    "dipscription": "Cozy cardigan made from soft wool, perfect for layering in chilly weather. Open-front design with pockets.",
     "size": ["M", "L", "XL"],
     "fabric": "Wool",
     "type": "Cardigan",
@@ -61,7 +61,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/six.webp",
     "title": "Palazzo Pants",
-    "description": "Wide-leg palazzo pants in breathable fabric, providing all-day comfort and style for casual or semi-formal settings.",
+    "dipscription": "Wide-leg palazzo pants in breathable fabric, providing all-day comfort and style for casual or semi-formal settings.",
     "size": ["S", "M", "L", "XL"],
     "fabric": "Linen",
     "type": "Pants",
@@ -73,7 +73,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/seven.webp",
     "title": "Ankle-Length Leggings",
-    "description": "Soft, stretchable leggings for comfort and ease, ideal for yoga, workouts, or lounging. Features a high-waist fit.",
+    "dipscription": "Soft, stretchable leggings for comfort and ease, ideal for yoga, workouts, or lounging. Features a high-waist fit.",
     "size": ["XS", "S", "M", "L"],
     "fabric": "Cotton Blend",
     "type": "Leggings",
@@ -85,7 +85,7 @@ export const prodcutaAllData = [
   {
     "image": "productImages/eight.webp",
     "title": "Cashmere Shawl",
-    "description": "Luxurious cashmere shawl offering elegance and warmth, a timeless accessory for all seasons. Lightweight and super soft.",
+    "dipscription": "Luxurious cashmere shawl offering elegance and warmth, a timeless accessory for all seasons. Lightweight and super soft.",
     "size": ["One Size"],
     "fabric": "Cashmere",
     "type": "Shawl",
