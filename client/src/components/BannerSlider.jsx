@@ -4,12 +4,12 @@ const BannerSlider = () => {
   const [marginLeft, setMarginLeft] = useState(0); 
 
   const handleSlider = (direction) => {
-    if (marginLeft === -200 && direction === '-') {
+    if (marginLeft === -2600 && direction === '-') {
       setMarginLeft(0); 
     } else if (marginLeft === 0 && direction === '+') {
-      setMarginLeft(-200); 
+      setMarginLeft(-2600); 
     } else {
-      setMarginLeft((prev) => (direction === '-' ? prev - 100 : prev + 100));
+      setMarginLeft((prev) => (direction === '-' ? prev - 1300 : prev + 1300));
     }
   };
 
@@ -18,10 +18,10 @@ const BannerSlider = () => {
     <div className='w-full h-[300px] mt-5 overflow-hidden relative'>
       <div
         className='sliderWrapper whitespace-nowrap flex h-full w-[400%] transition-transform duration-300 ease-in-out'
-        style={{ marginLeft: `${marginLeft}vw` }}
+        style={{ marginLeft: `${marginLeft}px` }}
       >
         {/* First slide */}
-        <div className='one h-full w-[100vw] bg-green-500'>
+        <div className='one h-[300px] w-[1300px] bg-green-500'>
           <img
             className='h-full w-full object-cover '
             src='/banners/one.jpg'
@@ -29,7 +29,7 @@ const BannerSlider = () => {
           />
         </div>
         {/* Second slide */}
-        <div className='two h-full w-[100vw] bg-red-500'>
+        <div className='two h-[300px] w-[1300px] bg-red-500'>
           <img
             className='h-full w-full object-cover '
             src='/banners/two.jpg'
@@ -37,7 +37,7 @@ const BannerSlider = () => {
           />
         </div>
         {/* Third slide */}
-        <div className='three h-full w-[100vw] bg-slate-950'>
+        <div className='three h-[300px] w-[1300px] bg-slate-950'>
           <img
             className='h-full w-full object-cover '
             src='/banners/three.jpg'
