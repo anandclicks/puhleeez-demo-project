@@ -17,7 +17,7 @@ const SpecificProduct = () => {
   // api call for fetching data of this prodcut from databse 
   useEffect(()=> {
     const apiCall = async()=> {
-      const response = await axios.post("http://localhost:3000/prodcut/specificPorduct", {id : id})
+      const response = await axios.post("https://puhleezbackend.onrender.com/prodcut/specificPorduct", {id : id})
       console.log(response)
       if(response.data.sucess) {
         setprodcutData(response.data.prodcut)

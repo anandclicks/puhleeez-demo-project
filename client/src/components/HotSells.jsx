@@ -7,7 +7,7 @@ const HotSells = () => {
   // api request for getting data of hot sells prodcut 
 useEffect(()=> {
   const apiCall = async()=> {
-    const response = await axios.get('http://localhost:3000/prodcut/allProducts')
+    const response = await axios.get('https://puhleezbackend.onrender.com/prodcut/allProducts')
     if(response.data.sucess) {
       setprodctuData(response.data.prodcuts)
     }
